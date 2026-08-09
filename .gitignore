@@ -1,0 +1,6 @@
+# Ignore sensitive environment variables
+.env
+
+# Ignore editor settings
+.idea/
+week1/venv/
