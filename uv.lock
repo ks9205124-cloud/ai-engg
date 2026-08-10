@@ -18,6 +18,7 @@ dependencies = [
     { name = "pypdf" },
     { name = "python-docx" },
     { name = "python-dotenv" },
+    { name = "qroq" },
 ]
 
 [package.metadata]
@@ -27,6 +28,7 @@ requires-dist = [
     { name = "pypdf", specifier = ">=6.15.0" },
     { name = "python-docx", specifier = ">=1.2.0" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
+    { name = "qroq", specifier = ">=0.0.3" },
 ]
 
 [[package]]
@@ -331,6 +333,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/82/ed/0301aeeac3e5353ef3d94b6ec08bbcabd04a72018415dcb29e588514bba8/python_dotenv-1.2.2.tar.gz", hash = "sha256:2c371a91fbd7ba082c2c1dc1f8bf89ca22564a087c2c287cd9b662adde799cf3", size = 50135, upload-time = "2026-03-01T16:00:26.196Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/0b/d7/1959b9648791274998a9c3526f6d0ec8fd2233e4d4acce81bbae76b44b2a/python_dotenv-1.2.2-py3-none-any.whl", hash = "sha256:1d8214789a24de455a8b8bd8ae6fe3c6b69a5e3d64aa8a8e5d68e694bbcb285a", size = 22101, upload-time = "2026-03-01T16:00:25.09Z" },
+]
+
+[[package]]
+name = "qroq"
+version = "0.0.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/21/7b/6cde0dd9e59a1169e3d4eac0034caea1b4b9c84f48158616acdc7b3bf536/qroq-0.0.3.tar.gz", hash = "sha256:6707c893eb69746e02437993577d14d0c5f0acb7d5a85c0214be7d45a9de58bf", size = 3921, upload-time = "2026-03-31T10:31:37.688Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/41/c4/33ea789d2a144e9db4c8495183b49be1e04c01a86d021f2af3eba8853157/qroq-0.0.3-py3-none-any.whl", hash = "sha256:b04471f6c86f531185f5da128e5867ff23dce6c981a525f5a229e8a962a6ef02", size = 3693, upload-time = "2026-03-31T10:31:36.768Z" },
 ]
 
 [[package]]
